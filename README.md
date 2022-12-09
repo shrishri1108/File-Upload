@@ -62,9 +62,8 @@ c>> In res -> xml  . Create  a file_paths.xml file  and paste following code int
         }
     }
 
-
-
-    Steps ===>> 
+                                                
+Steps ===>> 
 
 
 1> IN select button onClick Function 
