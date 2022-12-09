@@ -23,7 +23,30 @@
                 tools:replace="android:resource" />
         </provider>
 
+      c>> In res -> xml  . Create  a file_paths.xml file  and paste following code into it . 
+              <?xml version="1.0" encoding="utf-8"?>
+<paths>
 
+
+    <external-path name="my_images" path="Android/data/<write_your_package_here>" />
+        <external-path
+            name="external_files"
+            path="." />
+
+    <external-path name="external_files" path="."/>
+
+    <external-path name="external" path="." />
+
+    <cache-path name="cache" path="." />
+
+    <external-cache-path name="external_cache" path="." />
+
+    <files-path name="files" path="." />
+
+</paths>
+
+      
+      
       2>   In   Project-level  Build.gradle file -->  Inside allprojects { }
           
        repositories {
