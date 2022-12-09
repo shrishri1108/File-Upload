@@ -30,7 +30,7 @@
 
     <external-path name="my_images" path="Android/data/<write_your_package_here>" />
         <external-path
-            name="external_files"
+            name="external_files"  
             path="." />
 
     <external-path name="external_files" path="."/>
